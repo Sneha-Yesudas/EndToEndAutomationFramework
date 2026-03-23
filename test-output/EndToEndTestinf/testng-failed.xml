@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="6" parallel="tests" name="Failed suite [EndToEndTestinf]">
+  <test thread-count="6" name="Regression-2(failed)">
+    <parameter name="platform" value="2"/>
+    <classes>
+      <class name="com.endtoendtesting.test.AddtoCartTest">
+        <methods>
+          <include name="verifyProductAddedtoCartSuccessfully" invocation-numbers="0"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.endtoendtesting.test.AddtoCartTest -->
+    </classes>
+  </test> <!-- Regression-2(failed) -->
+</suite> <!-- Failed suite [EndToEndTestinf] -->

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="15" parallel="tests" name="Failed suite [EndToEndTesting]">
+  <test thread-count="15" name="Regression-1(failed)">
+    <parameter name="platform" value="1"/>
+    <classes>
+      <class name="com.endtoendtesting.test.AddtoCartTest">
+        <methods>
+          <include name="verifyProductAddedtoCartSuccessfully"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.endtoendtesting.test.AddtoCartTest -->
+    </classes>
+  </test> <!-- Regression-1(failed) -->
+  <test thread-count="15" name="Regression-2(failed)">
+    <parameter name="platform" value="2"/>
+    <classes>
+      <class name="com.endtoendtesting.test.AddtoCartTest">
+        <methods>
+          <include name="verifyProductAddedtoCartSuccessfully"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.endtoendtesting.test.AddtoCartTest -->
+    </classes>
+  </test> <!-- Regression-2(failed) -->
+</suite> <!-- Failed suite [EndToEndTesting] -->

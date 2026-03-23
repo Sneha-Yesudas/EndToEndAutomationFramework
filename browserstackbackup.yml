@@ -1,0 +1,21 @@
+userName: "snehayesudas_AUhys6"
+accessKey: "zDG6GqR8YTFeq3bcG82E"
+
+projectName: "EndToEndTesting Framework"
+buildName: "Automated Build Release 1.0"
+
+# This defines what browsers and OS combinations to run your tests on
+platforms:
+  - os: Windows
+    osVersion: 11
+    browserName: Chrome
+    browserVersion: latest
+
+  - os: OS X
+    osVersion: Ventura
+    browserName: Firefox
+    browserVersion: latest
+
+
+# If you need to test localhost or internal dev URLs, set to true
+browserstackLocal: false

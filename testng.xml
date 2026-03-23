@@ -1,0 +1,12 @@
+<suite name="EndToEndTesting"  verbose="1">
+  <test name="Regression">
+  <parameter name="browsername" value="Chrome"/>
+  <parameter name="isLambda" value="false"/>
+  <parameter name="isHeadless" value="false"/>
+    <classes>
+       <class name="com.endtoendtesting.test.AddtoCartTest"/>
+    </classes>
+  </test>
+
+  
+</suite>
